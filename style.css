@@ -1,0 +1,37 @@
+body {
+    background: rgb(136, 197, 250);
+}
+
+/*
+.specimen, .greenery, .pot {
+    position: absolute;
+}
+*/
+
+/* flower petals, leaves */
+.stem {
+    background: green;
+    width: 10px;
+    height: 150px;
+    margin: auto;
+}
+
+.pot {
+    background: rgb(45, 238, 174);
+    margin: auto;
+}
+
+.rim {
+    background: lightcoral;
+    width: 100px;
+    height: 10px;
+    margin: auto;
+    padding-bottom: 8px;
+}
+
+.bowl {
+    background: lightcoral;
+    width: 85px;
+    height: 45px;
+    margin: auto;
+}
