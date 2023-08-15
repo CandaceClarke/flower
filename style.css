@@ -8,8 +8,35 @@ body {
 }
 */
 
-/* flower petals, leaves */
+/* plant parts */
 
+.bloom {
+    display: flex;
+    justify-content: center;
+}
+
+.petal1 {
+    background: radial-gradient(purple, rgb(56, 4, 199));
+    width: 34px;
+    height: 59px;
+    border-radius: 30px 30px 22px 49px;
+    transform: skew(13deg, 8deg);
+}
+
+.petal2 {
+    background: radial-gradient(purple, rgb(56, 4, 199));
+    width: 30px;
+    height: 67px;
+    border-radius: 43px 43px 45px 45px;
+}
+
+.petal3 {
+    background: radial-gradient(purple, rgb(56, 4, 199));
+    width: 34px;
+    height: 59px;
+    border-radius: 30px 30px 49px 22px;
+    transform: skew(352deg, 347deg);
+}
 .greenery {
     display: flex;
     justify-content: center;
@@ -41,6 +68,8 @@ body {
     margin-top: 50px;
 }
 
+/* pot stuff */
+
 .pot {
     background: rgb(45, 238, 174);
     margin: auto;
@@ -52,6 +81,7 @@ body {
     height: 10px;
     margin: auto;
     padding-bottom: 8px;
+    border-radius: 4px;
 }
 
 .bowl {
@@ -59,4 +89,5 @@ body {
     width: 88px;
     height: 45px;
     margin: auto;
+    border-radius: 0 0 8px 8px;
 }
